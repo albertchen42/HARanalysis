@@ -56,7 +56,7 @@ Every row is an entry for one subject performing one activity. The data presente
 2. Subjects for each measurement from step 1 were obtained from test/subject\_test.txt and train/subject\_train.txt
 3. Activities for each measurement from step 1 were obtained from test/y\_test.txt and train/y\_train.txt
 4. Variables and activities were converted from numeric coding to descriptive names using the keys found in features.txt and activity_labels.txt respectively. See previous section for description of variables.
-5. Activities were transformed into factors (levels = Walking, Walking_Upstairs, Walking_Downstairs,Sitting,Standing,Laying)
+5. Activities were transformed into factors (levels = Walking, Walking\_Upstairs, Walking\_Downstairs,Sitting,Standing,Laying)
 6. Subjects were transformed into factors (levels = 1:30)
 7. All data was sorted based on subject and activity. 
 8. Mean for mean() and std() variables were calculated for each subject performing each activity using the tapply function.
