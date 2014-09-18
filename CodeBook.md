@@ -51,6 +51,7 @@ Note: more variables were estimated in original data set. See features_info.txt 
 ##Information about processing:
 ###Steps:
 Every row is an entry for one subject performing one activity. The data presented are means and standard deviations for each type of measurement, averaged across all time points collected.
+
 1. Only mean() and std() variables were selected from test/X\_test.txt and train/X\_train.txt, using the grep function.
 2. Subjects for each measurement from step 1 were obtained from test/subject\_test.txt and train/subject\_train.txt
 3. Activities for each measurement from step 1 were obtained from test/y\_test.txt and train/y\_train.txt
