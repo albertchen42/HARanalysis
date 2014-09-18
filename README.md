@@ -9,6 +9,7 @@ Running the script "run_analysis.R" is sufficient to repeat the process of obtai
 RStudio Version 0.98.976 for MacOSX Mavericks was used.
 
 run_analysis.R does the following:
+
 1. The UCI HAR Dataset was downloaded and unzipped
   +https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Information about each variable and activity were read into R
